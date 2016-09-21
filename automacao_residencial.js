@@ -3,7 +3,7 @@ function AlteraRele1(){
     if(estado === "0"){
         document.getElementById("estado").innerHTML="1";
         document.getElementById("rele").innerHTML="<div class='rele1_ligado'></div>";
-		document.getElementById("botao").innerHTML="<a href='/?desligar'
+		document.getElementById("botao").innerHTML="<a href='/?desligar'/a>";
 class='botao'>Desliga</a>";
     } else {
         document.getElementById("estado").innerHTML="0";
